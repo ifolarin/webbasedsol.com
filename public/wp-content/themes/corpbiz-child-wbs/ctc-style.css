@@ -1,0 +1,89 @@
+/*
+CTC Separate Stylesheet
+Updated: 2016-07-12 22:03:18
+*/
+
+.navbar {
+	background: rgba(255, 255, 255, 0.7); padding: 10px 0;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .btn_login, .btn_green, .footer_callout_area, .pagination span.current, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover {
+    /*background: rgba(0,103,170, 0.8);
+     background-color: #0067aa;*/
+    background-color: #5a96ff;
+}
+
+.btn_red, .flex-btn, .more-link, .callout_btn, input[type="submit"], .btn_common {
+    box-shadow: 0 3px 0 0 #006ac1;
+}
+.btn_red, .flex-btn, .page_up, .support_icon_red, .support_btn_red, .sidebar_widget_tab > .active a, .paginations a:hover, .paginations a.active, .more-link, .callout_btn, .widget table caption, .widget table tbody a, .qua_dropcape_square span, .tagcloud a:hover, .tagcloud a:focus, .footer-sidebar .widget .tagcloud a:hover, .footer-sidebar .widget .tagcloud a:focus, .header-sidebar .widget .tagcloud a:hover, .header-sidebar .widget .tagcloud a:focus, input[type="submit"], .btn_common{
+    background-color: #5a96ff;
+}
+
+.wbs-contact{
+	background-color: #f3f3f3;
+    background-image: none;
+    border: 1px solid #e0e4e6;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-radius: 3px;
+    padding: 11px 30px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+textarea.wbs-contact {
+    display: block;    
+    color: #787878;
+    margin: 0 0 10px;
+    height: auto;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+
+
+button.wbs-contact{	
+	 background-color: #5a96ff;
+	 box-shadow: 0 3px 0 0 #006ac1;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #000;
+}
+
+/*
+.footer-sidebar ul li {
+    border-bottom: 1px solid #e0e4e6;
+    padding: 9px 0;
+}
+*/
+
+.footer-sidebar .widget ul li {
+    border-bottom: 1px solid #e0e4e6;
+    padding: 7px 0;
+}
+
+.footer-sidebar ul li > i{
+	padding-right: 14px;
+}
+
+.widget ul li, .widget ul li a, .footer_menu_links li > a{
+    color: #787878;
+    font-weight: 500;
+}
+
+.widget ul li a:hover , 
+.footer_menu_links li > a:hover {
+    color: #5a96ff;
+}
+
+
+
+

@@ -1,0 +1,180 @@
+/*
+Theme Name: Corpbiz Child WBS
+Theme URI: http://webriti.com/corpbiz-lite-version-detail-page/
+Template: corpbiz
+Author: Webriti
+Author URI: http://webriti.com/
+Description: The Corpbiz customized for webbasedsol.com
+Tags: full-width-template,threaded-comments,custom-menu,two-columns,translation-ready,sticky-post,right-sidebar,featured-images,blog,portfolio,footer-widgets
+Version: 1.6.4.1468360998
+Updated: 2016-07-12 22:03:18
+
+*/
+
+/*
+img#logo{
+	display: block;
+	width: 40%;
+	height: auto;
+}*/
+
+.homepage_mycarousel{
+	background: url("/wp-content/themes/images/slides/slide01.jpg") repeat fixed center 0 #143745;
+	min-height: 350px;
+	margin-bottom: 40px;
+}
+
+.slider{
+    position: relative;
+}
+
+.header-sidebar {
+    background: #111111;
+    font-family: 'Roboto';
+}
+
+.header-sidebar .widget {
+    margin: 0px;
+    padding: 0;
+}
+
+.widget {
+    margin: 0 0 60px;
+    padding: 0px;
+    display: block;
+}
+
+.footer-sidebar .widget ul li:first-child, .header-sidebar .widget ul li:first-child {
+    padding-top: 0;
+}
+
+.widget .header_contact_info li:first-child {
+    border-left: 0 none;
+    padding: 13px 13px 13px 0px;
+}
+
+.footer-sidebar .widget ul li, .header-sidebar .widget ul li {
+    border-bottom: 0 none;
+    padding: 7px 0;
+}
+
+.widget ul li:first-child {
+    padding-top: 0;
+}
+
+.widget .header_contact_info li {
+    color: #ffffff;
+    border-bottom: 0 none;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0;
+    padding: 12px 17px !important;
+    color: #ffffff;
+    font-size: 13spx;
+    border-left: 1px solid #4f4f4f;
+}
+
+.widget ul li {
+    border-bottom: 1px solid #e0e4e6;
+    padding: 9px 0;
+}
+ul li, ul li a, ol li, ol li a {
+    border: 0 none;
+}
+ul li, ol li {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0;
+    padding: 6px 0;
+    vertical-align: top;
+}
+
+.widget .header_contact_social li {
+    background-color: transparent;
+    border-left: 1px solid #4f4f4f;
+    display: inline-block;
+    margin: 0;
+    padding: 0 !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-sidebar .col-md-6:last-child .widget .header_contact_social {
+    float: right;
+}
+.widget .header_contact_social {
+    margin: 0px;
+    padding: 0px;
+}
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget .header_contact_social li a {
+    display: block;
+    padding: 12px 12px 12px 15px;
+}
+
+.widget ul li a {
+    font-weight: 400;
+}
+
+ul li, ul li a, ol li, ol li a {
+    border: 0 none;
+}
+
+a, a:hover, a:focus {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.widget .header_contact_social li > a > i {
+    color: #ffffff;
+    font-size: 14px;
+    transition: color 0.5s ease-in-out 0s;
+    line-height: 1.5;
+}
+
+.footer-sidebar .widget ul li::before, .header-sidebar .widget ul li::before {
+    content: none; /*"\f10c";*/    
+}
+
+.widget .header_contact_info i ,
+.widget .footer-sidebar ul li i{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+
+.service_section {
+	padding-top: 35px;
+}
+
+.service_box {
+    background: none;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+
+.service_area {
+	padding: 0 5px;
+}
+
