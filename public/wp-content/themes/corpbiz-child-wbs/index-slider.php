@@ -5,7 +5,7 @@ $current_options = wp_parse_args(  get_option( 'corpbiz_options', array() ), $co
 <!--Flex Slider-->	
 <?php if($current_options['home_banner_enabled'] == true) { ?>
 		<div class="slider">
-					<img class="img-responsive" src="/wp-content/themes/images/slides/slide01.jpg">
+					<img class="img-responsive" src="/wp-content/themes/images/slides/slide02.jpg">
 					<?php if( $current_options['slider_image_one_title'] != '' || $current_options['slider_image_one_description'] !='' || $current_options['slider_one_readmore_link'] != '' ) { ?>
 					<div class="container slide-caption">
 						<div class="overlay">
